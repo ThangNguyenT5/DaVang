@@ -12,5 +12,5 @@ function slide_show() {
     if (index_slide > slide.length) {index_slide = 1}
     slide[index_slide-1].style.display ="block";
 
-    setTimeout(slide_show, 2000);
+    setTimeout(slide_show, 5000);
 };
